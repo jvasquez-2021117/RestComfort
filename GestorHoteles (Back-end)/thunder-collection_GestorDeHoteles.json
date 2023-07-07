@@ -1,0 +1,562 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "GestorDeHoteles",
+    "dateExported": "2023-05-11T22:32:00.933Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "65157e1d-753d-46b3-af58-430383453580",
+            "name": "room",
+            "containerId": "",
+            "created": "2023-05-11T20:58:52.823Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "c3e79e9f-206e-4dbd-863a-fc36b90ec1b7",
+            "name": "roomType",
+            "containerId": "",
+            "created": "2023-05-11T20:58:52.824Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "d84faae2-6c52-4d12-8940-e6d614db3b50",
+            "name": "Bill",
+            "containerId": "",
+            "created": "2023-05-11T20:58:52.825Z",
+            "sortNum": 30000
+        },
+        {
+            "_id": "d8d686a7-93c4-4ac2-a947-edcdde3ac5cb",
+            "name": "Hotel",
+            "containerId": "",
+            "created": "2023-05-11T20:58:52.827Z",
+            "sortNum": 40000
+        },
+        {
+            "_id": "84d61438-1d90-4dd5-bb9f-413c1cb22f94",
+            "name": "Services",
+            "containerId": "",
+            "created": "2023-05-11T20:58:52.828Z",
+            "sortNum": 50000
+        },
+        {
+            "_id": "ad7e5713-2ed6-4bcc-b1d9-e8cc9216041d",
+            "name": "Consumption",
+            "containerId": "",
+            "created": "2023-05-11T20:58:52.829Z",
+            "sortNum": 60000
+        },
+        {
+            "_id": "109bb27d-0061-4d72-81b6-b8e7cf2b7948",
+            "name": "User",
+            "containerId": "",
+            "created": "2023-05-11T20:58:52.830Z",
+            "sortNum": 70000
+        },
+        {
+            "_id": "f46050d6-34a7-4b8f-abe6-b4c3f6817ac0",
+            "name": "reservation",
+            "containerId": "",
+            "created": "2023-05-11T21:47:25.149Z",
+            "sortNum": 80000
+        },
+        {
+            "_id": "df9b12de-99f7-4913-b928-4e53d4178d2e",
+            "name": "Event",
+            "containerId": "",
+            "created": "2023-05-11T21:50:45.282Z",
+            "sortNum": 90000
+        },
+        {
+            "_id": "8d4ba04a-17f5-4290-8426-72befa4e0ec6",
+            "name": "Type Event",
+            "containerId": "",
+            "created": "2023-05-11T21:50:52.154Z",
+            "sortNum": 100000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "111e4507-4f99-4f81-b7fe-5821f05ce0e1",
+            "colId": "eeb9aeb2-2c29-49b7-8c70-594dbdc8872f",
+            "containerId": "c3e79e9f-206e-4dbd-863a-fc36b90ec1b7",
+            "name": "add",
+            "url": "http://localhost:3200/roomType/add",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-05-11T20:58:52.824Z",
+            "modified": "2023-05-11T20:58:52.824Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "oro"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "633526e6-5f9c-496b-a148-48a99a40b36d",
+            "colId": "eeb9aeb2-2c29-49b7-8c70-594dbdc8872f",
+            "containerId": "c3e79e9f-206e-4dbd-863a-fc36b90ec1b7",
+            "name": "update",
+            "url": "",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-05-11T20:58:52.825Z",
+            "modified": "2023-05-11T20:58:52.825Z",
+            "headers": []
+        },
+        {
+            "_id": "58c74630-f921-42da-9674-71c38048406b",
+            "colId": "eeb9aeb2-2c29-49b7-8c70-594dbdc8872f",
+            "containerId": "c3e79e9f-206e-4dbd-863a-fc36b90ec1b7",
+            "name": "delete",
+            "url": "",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-05-11T20:58:52.826Z",
+            "modified": "2023-05-11T20:58:52.826Z",
+            "headers": []
+        },
+        {
+            "_id": "af8fc123-33e7-4653-8798-fe0a89ae6747",
+            "colId": "eeb9aeb2-2c29-49b7-8c70-594dbdc8872f",
+            "containerId": "c3e79e9f-206e-4dbd-863a-fc36b90ec1b7",
+            "name": "get",
+            "url": "",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-05-11T20:58:52.827Z",
+            "modified": "2023-05-11T20:58:52.827Z",
+            "headers": []
+        },
+        {
+            "_id": "1bc281eb-a697-44c0-894c-cbde17677a92",
+            "colId": "eeb9aeb2-2c29-49b7-8c70-594dbdc8872f",
+            "containerId": "c3e79e9f-206e-4dbd-863a-fc36b90ec1b7",
+            "name": "getById",
+            "url": "",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-05-11T20:58:52.828Z",
+            "modified": "2023-05-11T20:58:52.828Z",
+            "headers": []
+        },
+        {
+            "_id": "c79f094a-45c7-4534-b241-83d30bb61061",
+            "colId": "eeb9aeb2-2c29-49b7-8c70-594dbdc8872f",
+            "containerId": "65157e1d-753d-46b3-af58-430383453580",
+            "name": "add",
+            "url": "http://localhost:3200/room/add",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2023-05-11T20:58:52.829Z",
+            "modified": "2023-05-11T20:58:52.829Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "700"
+                    },
+                    {
+                        "name": "noGuest",
+                        "value": "4"
+                    },
+                    {
+                        "name": "price",
+                        "value": "1000"
+                    },
+                    {
+                        "name": "roomType",
+                        "value": "64591367b617ebf4d5be3307"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "e01e4f5e-b7f9-423f-9758-da3c6d2f2c64",
+            "colId": "eeb9aeb2-2c29-49b7-8c70-594dbdc8872f",
+            "containerId": "65157e1d-753d-46b3-af58-430383453580",
+            "name": "update",
+            "url": "http://localhost:3200/room/update/6459142854dacf51655420de",
+            "method": "PUT",
+            "sortNum": 70000,
+            "created": "2023-05-11T20:58:52.830Z",
+            "modified": "2023-05-11T20:58:52.830Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "price",
+                        "value": "20"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "57d0ff14-80af-4c7b-bebf-44bad3d53317",
+            "colId": "eeb9aeb2-2c29-49b7-8c70-594dbdc8872f",
+            "containerId": "65157e1d-753d-46b3-af58-430383453580",
+            "name": "delete",
+            "url": "",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2023-05-11T20:58:52.831Z",
+            "modified": "2023-05-11T20:58:52.831Z",
+            "headers": []
+        },
+        {
+            "_id": "36e3fc63-6b0f-4da5-8a67-2d852b77320c",
+            "colId": "eeb9aeb2-2c29-49b7-8c70-594dbdc8872f",
+            "containerId": "65157e1d-753d-46b3-af58-430383453580",
+            "name": "get",
+            "url": "http://localhost:3200/room/get",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2023-05-11T20:58:52.832Z",
+            "modified": "2023-05-11T20:58:52.832Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b8c9e775-f5b5-4d19-891d-e2ee196a86ca",
+            "colId": "eeb9aeb2-2c29-49b7-8c70-594dbdc8872f",
+            "containerId": "65157e1d-753d-46b3-af58-430383453580",
+            "name": "getById",
+            "url": "http://localhost:3200/room/getById/6459142854dacf51655420de",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2023-05-11T20:58:52.833Z",
+            "modified": "2023-05-11T20:58:52.833Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "65324479-3495-405f-a916-f300f0c73ee3",
+            "colId": "eeb9aeb2-2c29-49b7-8c70-594dbdc8872f",
+            "containerId": "d84faae2-6c52-4d12-8940-e6d614db3b50",
+            "name": "add",
+            "url": "http://localhost:3200/bill/addBill",
+            "method": "POST",
+            "sortNum": 110000,
+            "created": "2023-05-11T20:58:52.834Z",
+            "modified": "2023-05-11T21:08:36.924Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "user",
+                        "value": "645d57c1147ce0bc6c84ab9c"
+                    },
+                    {
+                        "name": "name",
+                        "value": "Pedro"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "Vasquez"
+                    },
+                    {
+                        "name": "nit",
+                        "value": "12345"
+                    },
+                    {
+                        "name": "hotel",
+                        "value": "645d5747147ce0bc6c84ab93"
+                    },
+                    {
+                        "name": "room",
+                        "value": "645d5735147ce0bc6c84ab8d"
+                    },
+                    {
+                        "name": "description",
+                        "value": "de lujo"
+                    },
+                    {
+                        "name": "services",
+                        "value": "645d574c147ce0bc6c84ab96"
+                    },
+                    {
+                        "name": "services",
+                        "value": "645d57d5147ce0bc6c84ab9f"
+                    },
+                    {
+                        "name": "consumption",
+                        "value": "645d5752147ce0bc6c84ab99"
+                    },
+                    {
+                        "name": "consumption",
+                        "value": "645d57e1147ce0bc6c84aba2"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "9619d7c3-2629-491e-8c83-9a9fc9829910",
+            "colId": "eeb9aeb2-2c29-49b7-8c70-594dbdc8872f",
+            "containerId": "ad7e5713-2ed6-4bcc-b1d9-e8cc9216041d",
+            "name": "add",
+            "url": "http://localhost:3200/consumption/addConsumption",
+            "method": "POST",
+            "sortNum": 120000,
+            "created": "2023-05-11T20:58:52.835Z",
+            "modified": "2023-05-11T21:02:25.705Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "product",
+                        "value": "Seven"
+                    },
+                    {
+                        "name": "price",
+                        "value": "10"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "150a6d68-8d17-4ebe-91d5-c79722dffaa4",
+            "colId": "eeb9aeb2-2c29-49b7-8c70-594dbdc8872f",
+            "containerId": "84d61438-1d90-4dd5-bb9f-413c1cb22f94",
+            "name": "add",
+            "url": "http://localhost:3200/services/addServices",
+            "method": "POST",
+            "sortNum": 130000,
+            "created": "2023-05-11T20:58:52.836Z",
+            "modified": "2023-05-11T21:02:13.395Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Camaras"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Camaras todos los dias"
+                    },
+                    {
+                        "name": "price",
+                        "value": "100"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "042483bd-22db-406f-b8d6-9154b9b6eb5c",
+            "colId": "eeb9aeb2-2c29-49b7-8c70-594dbdc8872f",
+            "containerId": "d8d686a7-93c4-4ac2-a947-edcdde3ac5cb",
+            "name": "add",
+            "url": "http://localhost:3200/hotel/addHotel",
+            "method": "POST",
+            "sortNum": 140000,
+            "created": "2023-05-11T20:58:52.837Z",
+            "modified": "2023-05-11T20:58:52.837Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Los barrios"
+                    },
+                    {
+                        "name": "description",
+                        "value": "puro barrio"
+                    },
+                    {
+                        "name": "address",
+                        "value": "Zona 12"
+                    },
+                    {
+                        "name": "qualification",
+                        "value": "Good"
+                    },
+                    {
+                        "name": "rooms",
+                        "value": "6459142854dacf51655420de"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "dbc342e8-d9f5-474e-a5a8-04f8c2dba024",
+            "colId": "eeb9aeb2-2c29-49b7-8c70-594dbdc8872f",
+            "containerId": "109bb27d-0061-4d72-81b6-b8e7cf2b7948",
+            "name": "Regiter",
+            "url": "http://localhost:3200/user/register",
+            "method": "POST",
+            "sortNum": 150000,
+            "created": "2023-05-11T20:58:52.838Z",
+            "modified": "2023-05-11T21:01:53.084Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Pedro"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "Vasquez"
+                    },
+                    {
+                        "name": "email",
+                        "value": "Vasquez@gmail.com"
+                    },
+                    {
+                        "name": "password",
+                        "value": "123"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "4f533b52-1be4-4de0-b9fb-dfbac006c2dd",
+            "colId": "eeb9aeb2-2c29-49b7-8c70-594dbdc8872f",
+            "containerId": "f46050d6-34a7-4b8f-abe6-b4c3f6817ac0",
+            "name": "add",
+            "url": "http://localhost:3200/reservation/addReservation",
+            "method": "POST",
+            "sortNum": 160000,
+            "created": "2023-05-11T21:47:40.820Z",
+            "modified": "2023-05-11T22:11:54.590Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "user",
+                        "value": "645d57c1147ce0bc6c84ab9c"
+                    },
+                    {
+                        "name": "hotel",
+                        "value": "645d676f689a70811b33e57b"
+                    },
+                    {
+                        "name": "room",
+                        "value": "645d5735147ce0bc6c84ab8d"
+                    },
+                    {
+                        "name": "event",
+                        "value": "645d66023187ab0601d1927d"
+                    },
+                    {
+                        "name": "date",
+                        "value": "05-17-2023"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "daa827f1-0200-4033-b6c2-6dc7ecce18bb",
+            "colId": "eeb9aeb2-2c29-49b7-8c70-594dbdc8872f",
+            "containerId": "df9b12de-99f7-4913-b928-4e53d4178d2e",
+            "name": "add",
+            "url": "http://localhost:3200/events/addEvents",
+            "method": "POST",
+            "sortNum": 180000,
+            "created": "2023-05-11T21:50:58.017Z",
+            "modified": "2023-05-11T22:02:42.966Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Loco"
+                    },
+                    {
+                        "name": "description",
+                        "value": "loquisimo"
+                    },
+                    {
+                        "name": "eventType",
+                        "value": "645d65b43187ab0601d1927a"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "47f8dedd-860b-4590-9c40-743b4c54c135",
+            "colId": "eeb9aeb2-2c29-49b7-8c70-594dbdc8872f",
+            "containerId": "8d4ba04a-17f5-4290-8426-72befa4e0ec6",
+            "name": "add",
+            "url": "http://localhost:3200/eventType/Add",
+            "method": "POST",
+            "sortNum": 190000,
+            "created": "2023-05-11T21:51:01.715Z",
+            "modified": "2023-05-11T22:01:24.792Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "description",
+                        "value": "fiestongo"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "f8c283f8-f4b4-4d23-b4cf-29c196736d93",
+            "colId": "eeb9aeb2-2c29-49b7-8c70-594dbdc8872f",
+            "containerId": "f46050d6-34a7-4b8f-abe6-b4c3f6817ac0",
+            "name": "Delete",
+            "url": "http://localhost:3200/reservation/deleteReservation/645d6a1ca068c66673d9d58f",
+            "method": "DELETE",
+            "sortNum": 200000,
+            "created": "2023-05-11T22:15:21.763Z",
+            "modified": "2023-05-11T22:20:26.557Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
