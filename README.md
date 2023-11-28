@@ -20,7 +20,7 @@ Cuenta con 2 diferentes roles, usuario y administrador, cada uno con diferentes 
 
 ```
 -Descargar repositorio
--Abrir terminal en la carpeta raiz del proyecto tanto del back-end "Almacenadora (Back-end)", como del front-end "Almacenadora (Front-End)"
+-Abrir terminal en la carpeta raiz del proyecto tanto del back-end "GestorHoteles (Back-end)", como del front-end "GestorHoteles (Front-End)"
 -Ejecutar los siguientes comandos en ambas terminales "npm i" para instalar todos los paquetes necesarios y "npm run dev" para levantar el servidor
 -Copia la url que dejará la terminal del proyecto front-end y pegala en tu navegador favorito
 ```
