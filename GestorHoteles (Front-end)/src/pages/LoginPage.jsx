@@ -81,12 +81,6 @@ export const LoginPage = () => {
                                         <label className="form-label" htmlFor="loginPassword">Password</label>
                                         <input onChange={handleChange} id="loginPassword" name="password" className='form-control' type="password" />
                                     </div>
-                                    <ul className="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
-                                        <li className="nav-item" role="presentation">
-                                            <a className="nav-link active" id="tab-login" data-mdb-toggle="pill" href="#pills-login" role="tab"
-                                                aria-controls="pills-login" aria-selected="true">Login</a>
-                                        </li>
-                                    </ul>
                                     <div className="row mb-4">
                                         <div className="col-md-6 d-flex justify-content-center">
                                             <a href="#!" >Forgot password?</a>
