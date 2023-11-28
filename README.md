@@ -1,7 +1,7 @@
 # Gestor de Hoteles
 
 <p>
-una plataforma en línea que permite a los usuarios explorar y reservar habitaciones en diferentes hoteles, así como conocer los eventos especiales que se llevan a cabo en cada uno.
+Esta es una plataforma en línea que permite a los usuarios explorar y reservar habitaciones en diferentes hoteles, así como conocer los eventos especiales que se llevan a cabo en cada uno.
 
 Cuenta con 2 diferentes roles, usuario y administrador, cada uno con diferentes opciones para interactuar con la aplicacion.
 </p>
